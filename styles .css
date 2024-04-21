@@ -1,0 +1,347 @@
+/*task2
+a.link {
+    text-decoration: none;
+}
+
+.blog-post ul {
+    list-style-type: none;
+
+}*/
+/* styles.css */
+
+/* Styles for the <ul> element */
+ul.navbar {
+    display: block;
+    padding: 20px 0;
+    background-color: #242424;
+    text-align: center;
+}
+
+/* Styles for the <li> elements */
+ul.navbar li {
+    display: inline;
+    padding: 0 100px;
+    text-transform: capitalize;
+}
+
+/* Styles for the <a> elements */
+ul.navbar li a {
+    text-decoration: none;
+    color: #bf7c98;
+    font-weight: bold;
+}
+
+
+/*task3*/
+.hero-container {
+    width: 100%;
+    height: 100vh;
+}
+
+.hero {
+    margin: 150px auto; }
+
+.navbar {
+    display: block;
+    padding: 20px auto; 
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+
+.navbar a {
+    color: white; }
+/*task4*/
+main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+footer .footer-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.7rem;
+}
+
+h4 {
+    font-size: 1.7rem;
+}
+
+h5 {
+    font-size: 1.3rem;
+}
+/*task5*/
+a.anchor-link {
+    text-decoration: no
+}
+.section-des-articles-de-blog ul {
+    list-style-type: none; }
+/*task6
+#link-mdn_resource {
+    color: #8b5e5e; 
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    text-decoration: none; 
+}
+
+#link-mdn_resource:hover {
+    color: #d77777; 
+    font-weight: bold; 
+    padding-left: 2px;  
+}
+
+ Open link in a new tab 
+#link-mdn_resource[href^="http://"], 
+#link-mdn_resource[href^="https://"] {
+    target-name: _blank;
+}*/
+/*task6*/
+#link-mdn_resource {
+    color: #8b5e5e; 
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    text-decoration: none; 
+}
+
+#link-mdn_resource:hover {
+    color: #d77777; 
+    font-weight: bold; 
+    padding-left: 2px; 
+}
+
+/* Open link in a new tab */
+#link-mdn_resource[target="_blank"]::after {
+    content: "\2197"; 
+    margin-left: 0.2em; 
+}
+/*task7*/
+#link-mdn_resource:visited {
+    color: blue;
+}
+/*task8*/
+.custom_bullets {
+    list-style-type: none;
+}
+
+.custom_bullets::marker {
+    content: "★"; 
+    color: #d77777; 
+}
+/*task9*/
+.navbar a:hover {
+    color: #d77777; 
+}
+/*task10*/
+.custom_nav_style:hover::after {
+    font-family: 'Font Awesome 6 Free';
+    content: '\f0c6'; 
+    font-weight: bold; 
+    padding-left: 5px; 
+}
+/*task11*/
+.grid-like {
+    width: 100%;
+}
+
+.blog_post-item {
+    width: 25%;
+    margin: 10px;
+    padding: 5px;
+    height: 55px;
+    border: 2px solid #bf7c98;
+    text-align: center;
+    float: left; /* Position at the left */
+}
+
+.blog_post-item:hover {
+    border-radius: 8px; /* Rounded corners on hover */
+}
+/*task12*/
+.hero-container {
+    margin-bottom: 10rem; /* Add margin bottom of 10rem */
+}
+
+main {
+    display: table; /* Set table display */
+}
+
+main, .footer-container {
+    width: 70%; /* Set width to 70% */
+    margin: 0 auto; /* Set margin to 0 auto */
+}
+
+article, aside {
+    display: table-cell; /* Set display property to table-cell */
+}
+
+article {
+    width: 70%; /* Set width to 70% */
+}
+
+aside {
+    margin-left: 5rem; /* Set margin left to 5rem */
+    display: block; /* Set display to block */
+}
+/*task13*/
+.related_blog_container {
+    padding-left: 0; /* Remove left padding */
+}
+
+.related_blog_container li p {
+    margin: 0; /* Remove margin */
+}
+
+.related_blog_container li p span {
+    display: inline; /* Set display to inline */
+    margin-left: 10px; /* Set left margin to 10px */
+    font-weight: bold; /* Set font weight to bold */
+    font-style: italic; /* Set font style to italic */
+}
+
+.related_blog_container li p img {
+    border-radius: 50%; /* Make image rounded */
+}
+
+.related_blog_container li h5 {
+    margin: 0; /* Remove margin */
+}
+
+.related_blog_container li h5 a {
+    font-size: 1rem; /* Set font size to 1rem */
+}
+
+span {
+    display: block; /* Set display to block */
+    margin: 5px 0; /* Set margin to 5px on the Y axis and 0 on the X axis */
+}
+
+.related_blog_container li:not(:first-child) {
+    margin-top: 3rem; /* Set top margin to 3rem for all list items except the first one */
+}
+/*task14*/
+.footer-container {
+    margin-top: 15rem; /* Set margin top to 15rem */
+    margin-bottom: 0px; /* Set margin bottom to 0px */
+    margin-left: auto; /* Set margin left to auto */
+    margin-right: auto; /* Set margin right to auto */
+}
+
+.contact {
+    display: block; /* Set display to block */
+}
+
+.contact-links, .contact-subscribe {
+    display: inline-block; /* Set display to inline-block */
+}
+
+.contact-subscribe {
+    margin-left: 700px; /* Set left margin to 700px */
+}
+/*task15*/
+.contact-subscribe div p {
+    margin-bottom: 5px; /* Set bottom margin to 5px */
+}
+
+.contact-subscribe div label {
+    font-style: italic; /* Set font style to italic */
+    font-weight: bold; /* Set font weight to bold */
+}
+
+.contact-subscribe div p, .contact-subscribe div label {
+    font-weight: bold; /* Set font weight to bold */
+}
+
+#subscribe {
+    font-size: 18px; /* Set font size to 18px */
+    background-color: transparent; /* Set background color to transparent */
+    padding: 5px; /* Set padding to 5px */
+    border: none; /* Remove border */
+    border-bottom: 1px solid #757575; /* Set bottom border to 1px solid #757575 */
+}
+
+#subscribe:focus {
+    outline: none; /* Remove outline */
+    border-bottom: 2px solid #5264AE; /* Set bottom border to 2px solid #5264AE */
+}
+/*task16*/
+input[type="submit"] {
+    padding: 8px; /* Set padding to 8px */
+    border: 1px solid #d77777; /* Add border */
+    font-weight: bold; /* Set font weight to bold */
+    font-size: 1rem; /* Set font size to 1rem */
+    background-color: transparent; /* Set background color to transparent */
+    color: #d77777; /* Set color to #d77777 */
+    width: 60px; /* Set width to 60px */
+}
+
+input[type="submit"]:hover {
+    cursor: pointer; /* Set cursor to pointer */
+    border: 1px solid transparent; /* Add border */
+    font-style: italic; /* Set font style to italic */
+    background-color: #d77777; /* Set background color to #d77777 */
+    color: white; /* Set color to white */
+}
+/*task17*/
+.contact-links ul {
+    padding-left: 0; /* Remove left padding */
+}
+
+.contact-links ul li:hover a.link {
+    color: #d77777; /* Change color to #d77777 on hover */
+}
+/*task18*/
+.social_media ul {
+    text-align: center; /* Center items horizontally */
+    width: 100%; /* Set width to 100% */
+    height: 50px; /* Set height to 50px */
+    line-height: 50px; /* Set line height to 50px */
+    padding-left: 0; /* Remove left padding */
+}
+
+.social_media ul li {
+    display: inline-block; /* Set display to inline-block */
+    margin-right: 30px; /* Add right margin of 30px */
+}
+
+.social_media ul li:last-child {
+    margin-right: 0; /* Remove right margin for last child */
+}
+
+.social_media ul li i:hover {
+    color: #d77777; /* Change color to #d77777 on hover */
+}
+
+/* styles.css */
+
+/* Styles for the <ul> with class "social_media" */
+ul.social_media {
+    display: flex; /* Displaying as flexbox */
+    list-style-type: none; /* Removing default list styling */
+    padding: 0; /* Removing default padding */
+}
+
+/* Styles for the <li> elements */
+ul.social_media li {
+    margin-right: 10px; /* Adding space between list items */
+}
+
+/* Styles for the <a> elements */
+ul.social_media li a {
+    text-decoration: none;
+    color: #bf7c98;
+}
+
+/* Styles for the social media icons */
+ul.social_media li i {
+    font-size: 24px; /* Adjusting the size of the icons */
+}
